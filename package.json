@@ -1,5 +1,5 @@
 {
-  "name": "react-ts-template",
+  "name": "booksmarks-fe",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +13,7 @@
     "@ant-design/icons": "^5.6.1",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "antd": "^5.28.1",
+    "antd": "^6.2.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.5"
