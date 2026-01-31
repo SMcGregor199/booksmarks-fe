@@ -1,4 +1,5 @@
 import {Form as AntForm,Input,Button} from "antd";
+import type { JSX } from "react";
 import styled from '@emotion/styled'
 
 const SubmitButton = styled(Button)`
@@ -13,7 +14,7 @@ const SubmitButton = styled(Button)`
 `
 
 
-function Form(){
+function Form(): JSX.Element{
     const handleSubmit = ({ url }: { url: string }) => {
     console.log(url);
     };
