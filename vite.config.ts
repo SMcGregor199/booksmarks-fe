@@ -6,7 +6,7 @@ export default defineConfig({
   preview: {
     allowedHosts: [
       "bookmarks-fe-production.up.railway.app",
-      "booksmarks.shaynemcgregor.dev",
+      "bookmarks.shaynemcgregor.dev",
     ],
   },
 });
