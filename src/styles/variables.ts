@@ -5,7 +5,7 @@ interface Variables {
 }
 
 const variables: Variables = {
-  colorPrimary: "#855080",
+  colorPrimary: "#bfb296",
   fontSize: 24,
   white: "#ffffff"
 };

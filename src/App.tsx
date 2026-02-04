@@ -1,15 +1,16 @@
 
-import { Layout } from "antd";
+import {Routes, Route } from 'react-router-dom';
 import AppMain from "./components/AppMain";
-import Footer from "./components/Footer";
+import type { JSX } from "react";
+import AppLayout from "./AppLayout";
 
-function App() {
-
+function App(): JSX.Element {
   return (
-    <Layout style={{display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
-        <AppMain />
-        <Footer />
-    </Layout>
+    <Routes>
+      <Route element={<AppLayout />}>
+        <Route path="/" element={<AppMain />} />
+      </Route>
+    </Routes>
   )
 }
 

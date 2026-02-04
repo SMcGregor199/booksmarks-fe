@@ -20,8 +20,9 @@ createRoot(document.getElementById('root')!).render(
       },
       components: {
         Layout: {
-        bodyBg: variables.white,
-        footerBg: variables.white
+          headerBg: variables.white,
+          bodyBg: variables.white,
+          footerBg: variables.white
         }
       }
       }}
